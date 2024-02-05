@@ -18,6 +18,6 @@ public class HomeController {
     @GetMapping("/")
     public ResponseEntity<?> home()
     {
-        return ResponseEntity.ok("현재 profile은 %s 입니다..".formatted(value));
+        return ResponseEntity.ok("😏현재 profile은 %s 입니다..".formatted(value));
     }
 }
